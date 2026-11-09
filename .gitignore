@@ -1,0 +1,19 @@
+# Recovery plans and backups contain private local metadata. Never commit them.
+.recovery/
+.test-data/
+backups/
+runs/
+*restore-plan*.json
+*restore-status*.json
+*global-state*.json*
+*.sqlite*
+*.db
+*.jsonl
+auth.json
+.env*
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
